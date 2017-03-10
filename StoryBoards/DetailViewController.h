@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  StoryBoards
 //
 //  Created by Mobile Developer on 3/9/17.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
-    NSMutableArray *data;
-}
-
+@interface DetailViewController : UIViewController
+- (IBAction)click:(id)sender;
 
 @end
-

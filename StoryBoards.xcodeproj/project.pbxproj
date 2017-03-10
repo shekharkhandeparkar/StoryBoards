@@ -13,6 +13,7 @@
 		9783453E1E7157D7005E5EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9783453C1E7157D7005E5EDE /* Main.storyboard */; };
 		978345401E7157D7005E5EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9783453F1E7157D7005E5EDE /* Assets.xcassets */; };
 		978345431E7157D7005E5EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978345411E7157D7005E5EDE /* LaunchScreen.storyboard */; };
+		9783454C1E715D4A005E5EDE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9783454B1E715D4A005E5EDE /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9783453F1E7157D7005E5EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		978345421E7157D7005E5EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		978345441E7157D7005E5EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9783454A1E715D4A005E5EDE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9783454B1E715D4A005E5EDE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				978345411E7157D7005E5EDE /* LaunchScreen.storyboard */,
 				978345441E7157D7005E5EDE /* Info.plist */,
 				978345331E7157D7005E5EDE /* Supporting Files */,
+				9783454A1E715D4A005E5EDE /* DetailViewController.h */,
+				9783454B1E715D4A005E5EDE /* DetailViewController.m */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				9783453B1E7157D7005E5EDE /* ViewController.m in Sources */,
 				978345381E7157D7005E5EDE /* AppDelegate.m in Sources */,
 				978345351E7157D7005E5EDE /* main.m in Sources */,
+				9783454C1E715D4A005E5EDE /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
